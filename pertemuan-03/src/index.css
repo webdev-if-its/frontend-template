@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light dark;
+  font: 16px/1.5 system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 2.5rem;
+  border-top: 1px solid #8884;
+  padding-top: 1.5rem;
+}
